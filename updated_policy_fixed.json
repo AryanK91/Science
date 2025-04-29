@@ -1,0 +1,84 @@
+﻿{
+  "bindings": [
+    {
+      "members": [
+        "serviceAccount:science-tutor-agilityai@sciencetutor.iam.gserviceaccount.com"
+      ],
+      "role": "roles/aiplatform.admin"
+    },
+    {
+      "members": [
+        
+        "serviceAccount:science-tutor-agilityai@sciencetutor.iam.gserviceaccount.com"
+      ],
+      "role": "roles/aiplatform.user"
+    },
+    {
+      "members": [
+        "serviceAccount:service-804953929335@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+      ],
+      "role": "roles/artifactregistry.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-804953929335@containerregistry.iam.gserviceaccount.com"
+      ],
+      "role": "roles/containerregistry.ServiceAgent"
+    },
+    {
+      "members": [
+        
+        "serviceAccount:science-tutor-agilityai@sciencetutor.iam.gserviceaccount.com"
+      ],
+      "role": "roles/iam.serviceAccountUser"
+    },
+    {
+      "members": [
+        "user:nishant@agilityai.in"
+      ],
+      "role": "roles/logging.admin"
+    },
+    {
+      "members": [
+        
+        "serviceAccount:science-tutor-agilityai@sciencetutor.iam.gserviceaccount.com"
+      ],
+      "role": "roles/ml.admin"
+    },
+    {
+      "members": [
+        
+        "user:nishant@agilityai.in"
+      ],
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "serviceAccount:service-804953929335@gcp-sa-pubsub.iam.gserviceaccount.com"
+      ],
+      "role": "roles/pubsub.serviceAgent"
+    },
+    {
+      "members": [
+        
+        "serviceAccount:science-tutor-agilityai@sciencetutor.iam.gserviceaccount.com"
+      ],
+      "role": "roles/run.admin"
+    },
+    {
+      "members": [
+        "serviceAccount:service-804953929335@serverless-robot-prod.iam.gserviceaccount.com"
+      ],
+      "role": "roles/run.serviceAgent"
+    },
+    {
+      "members": [
+        
+        "serviceAccount:science-tutor-agilityai@sciencetutor.iam.gserviceaccount.com"
+      ],
+      "role": "roles/storage.objectAdmin"
+    }
+  ],
+  "etag": "BwYwoH_FcYc=",
+  "version": 1
+}
